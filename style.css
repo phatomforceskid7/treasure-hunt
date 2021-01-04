@@ -1,0 +1,13 @@
+#element {
+  touch-action: pan-right pinch-zoom;
+  touch-action: pan-left pinch-zoom;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  
+}
