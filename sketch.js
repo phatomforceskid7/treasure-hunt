@@ -46,11 +46,15 @@ function draw() {
   if(gameState===PLAY){
   background(0);
   //boy.x = World.mouseX;
-if(touches.length>0 || keyDown("left_arrow") || keyDown("right_arrow"))
+if(touches.length>0 || keyDown("left_arrow")) 
   {
     boy.x= boy.x-8;
     touches = []
-    boy.x= boy.x+8;
+  }
+    
+    
+ if(touches.length>0  || keyDown("right_arrow")){
+     boy.x= boy.x+8;
     touches = []
   
     
